@@ -1,0 +1,445 @@
+/**********************************
+* @Proyecto: UtilesCSS (CaFéDevJS);
+* @Autor/a: Carlos F. Gorosito;
+* @CopyRight: (C) 2016 CaFéDev;
+* @Version: 1.7
+* El siguiente código se encuentra liberado bajo licencia GPL v.3
+* Este sistema es software libre: podés redistribuir y/o modificar 
+* bajo los términos de la Licencia Pública General de GNU 
+* habilitada por la fundación Free Software Foundation, en su versión 
+* 3 de la Licencia, o cualquier versión posterior.
+*
+* Este sistema está distribuido con la esperanza de que será útil,
+* pero SIN GARANTÍA ALGUNA; sin, incluso, garantías implícitas de
+* MERCANTIBILIDAD o de ENCAJE PARA UN PROPÓSITO EN PARTICULAR.
+* Mirá la GNU General Public Licence para más detalles.
+*
+* Deberías haber recibido una copia de la GNU General Public Licence
+* junto con este sistema en formato archivo. Si no lo está, leela en
+* <http://www.gnu.org/licenses/gpl-3.0.html>.
+*
+*/
+
+/* @Desc: Este archivo genera código estándar para múltiples proyectos */
+/* @Modalidad: Basado en el trabajo en Clases */
+
+	* {
+		box-sizing: border-box;
+		font-family: Segoe UI Light, Segoe UI, Calibri UI Light, Calibri, Verdana, Arial, Helvetica;
+		padding: 0;
+		margin:	 0;
+	}
+
+/* [Colores de letra] **************************/
+	.letraNegra, .letraNegro, .letraDeNegro
+					{ color: black; }
+	.letraBlanca, .letraBlanco, .letraDeBlanco
+					{ color: white; }
+	.letraGris, .letraGrisacea
+					{ color: rgb(128,128,128); }
+	.letraRoja, .letraRojo
+					{ color: rgb(235, 0, 0);	}
+	.letraVerde		{ color: rgb(0, 235, 0);	}
+	.letraAzul		{ color: rgb(0, 0, 235);	}
+	.letraAmarilla, .letraAmarillo
+					{ color: rgb(235, 235, 0); 	}
+	.letraNaranja	{ color: rgb(235, 150, 0); 	}
+	.letraCeleste	{ color: rgb(0, 235, 235); 	}
+	.letraTurquesa	{ color: rgb(0, 200, 200); 	}
+	.letraFucsia	{ color: rgb(235, 0, 150); 	}
+	.letraRosa		{ color: rgb(235, 0, 200); 	}
+	.letraPurpura	{ color: rgb(135, 0, 100); 	}
+	.letraIndigo	{ color: rgb(135, 0, 200); 	}
+	.letraVioleta	{ color: rgb(155, 0, 150);	}
+
+	.sombraLetraNegra, .sombraLetraNegro, .sombraLetraDeNegro
+						{ text-shadow: 1px 1px 3px black; }
+	.sombraLetraBlanca, .sombraLetraBlanco, .sombraLetraDeBlanco
+						{ text-shadow: 1px 1px 3px white; }
+	.sombraLetraGris, .sombraLetraGrisacea
+						{ text-shadow: 1px 1px 3px rgb(128,128,128); }
+	.sombraLetraRoja, .sombraLetraRojo
+						{ text-shadow: 1px 1px 3px rgb(235, 0, 0);	}
+	.sombraLetraVerde	{ text-shadow: 1px 1px 3px rgb(0, 235, 0);	}
+	.sombraLetraAzul	{ text-shadow: 1px 1px 3px rgb(0, 0, 235);	}
+	.sombraLetraAmarilla, .sombraLetraAmarillo
+						{ text-shadow: 1px 1px 3px rgb(235, 235, 0); 	}
+	.sombraLetraNaranja	{ text-shadow: 1px 1px 3px rgb(235, 150, 0); 	}
+	.sombraLetraCeleste	{ text-shadow: 1px 1px 3px rgb(0, 235, 235); 	}
+	.sombraLetraTurquesa{ text-shadow: 1px 1px 3px rgb(0, 200, 200); 	}
+	.sombraLetraFucsia	{ text-shadow: 1px 1px 3px rgb(235, 0, 150); 	}
+	.sombraLetraRosa	{ text-shadow: 1px 1px 3px rgb(235, 0, 200); 	}
+	.sombraLetraPurpura	{ text-shadow: 1px 1px 3px rgb(135, 0, 100); 	}
+	.sombraLetraIndigo	{ text-shadow: 1px 1px 3px rgb(135, 0, 200); 	}
+	.sombraLetraVioleta	{ text-shadow: 1px 1px 3px rgb(155, 0, 150);	}
+
+/* [Colores normales] **************************/
+	.negro, .negra		{ background-color: rgb(0,0,0); 		color: white; }
+	.blanco, .blanca	{ background-color: rgb(255,255,255); 	color: black; }
+	.gris				{ background-color: rgb(128,128,128); 	color: white; }
+	.rojo, .roja 		{ background-color: rgb(235, 0, 0);		color: white; 	}
+	.verde				{ background-color: rgb(0, 235, 0);		color: white; 	}
+	.azul				{ background-color: rgb(0, 0, 235);		color: white; 	}
+	.amarillo, .amarilla{ background-color: rgb(235, 235, 0);	color: black; 	}
+	.naranja			{ background-color: rgb(235, 150, 0);	color: white; 	}
+	.celeste			{ background-color: rgb(0, 235, 235);	color: white; 	}
+	.turquesa			{ background-color: rgb(0, 200, 200);	color: white; 	}
+	.fucsia				{ background-color: rgb(235, 0, 150);	color: white; 	}
+	.rosa				{ background-color: rgb(235, 0, 200);	color: white; 	}
+	.purpura			{ background-color: rgb(135, 0, 100);	color: white; 	}
+	.indigo				{ background-color: rgb(135, 0, 200);	color: white; 	}
+	.violeta			{ background-color: rgb(155, 0, 150);	color: white; 	}
+
+/* [Colores Oscuros] **************************/
+	.blancoOscuro		{ background-color: rgb(185,185,185); 	color: black; }
+	.grisOscuro			{ background-color: rgb(90,80,90); 		color: white; }
+	.negroClaro			{ background-color: rgb(50,50,50);		color: white; }
+	.rojoOscuro, .rojaOscura
+						{ background-color: rgb(135, 0, 0);		color: white; 	}
+	.verdeOscuro		{ background-color: rgb(0, 135, 0);		color: white; 	}
+	.azulOscuro			{ background-color: rgb(0, 0, 135);		color: white; 	}
+	.amarilloOscuro		{ background-color: rgb(135, 135, 0);	color: black; 	}
+	.naranjaOscuro		{ background-color: rgb(135, 50, 0);	color: white; 	}
+	.celesteOscuro		{ background-color: rgb(0, 135, 135);	color: white; 	}
+	.turquesaOscuro		{ background-color: rgb(0, 100, 100);	color: white; 	}
+	.fucsiaOscuro		{ background-color: rgb(135, 0, 50);	color: white; 	}
+	.rosaOscuro			{ background-color: rgb(235, 0, 100);	color: white; 	}
+	.purpuraOscuro		{ background-color: rgb(35, 0, 30);		color: white; 	}
+	.indigoOscuro		{ background-color: rgb(35, 0, 100);	color: white; 	}
+	.violetaOscuro		{ background-color: rgb(55, 0, 50);		color: white;	}
+
+/* [Colores con transparencia al 80%] **********/
+	.negroT20, .negraT20	{ background-color: rgba(0,0,0,.2);			color: white; 	}
+	.rojoT20, .rojaT20 		{ background-color: rgba(235, 0, 0, .2);		color: white;	 	}
+	.verdeT20				{ background-color: rgba(0, 235, 0, .2);		color: white;	 	}
+	.azulT20				{ background-color: rgba(0, 0, 235, .2);		color: white;	 	}
+	.amarilloT20, .amarillaT20{ background-color: rgba(235, 235, 0, .2);	color: black;	 	}
+	.naranjaT20				{ background-color: rgba(235, 150, 0, .2);	color: white;	 	}
+	.celesteT20				{ background-color: rgba(0, 235, 235, .2);	color: white;	 	}
+	.turquesaT20			{ background-color: rgba(0, 200, 200, .2);	color: white;	 	}
+	.fucsiaT20				{ background-color: rgba(235, 0, 150, .2);	color: white;	 	}
+	.rosaT20				{ background-color: rgba(235, 0, 200, .2);	color: white;	 	}
+	.purpuraT20				{ background-color: rgba(135, 0, 100, .2);	color: white;	 	}
+	.indigoT20				{ background-color: rgba(135, 0, 200, .2);	color: white;	 	}
+	.violetaT20				{ background-color: rgba(155, 0, 150, .2);	color: white;		}
+
+/* [Colores con transparencia al 60%] **********/
+	.negroT40, .negraT40	{ background-color: rgba(0,0,0,.4);			color: white; 	}
+	.rojoT40, .rojaT40 		{ background-color: rgba(235, 0, 0, .4);		color: white;	 	}
+	.verdeT40				{ background-color: rgba(0, 235, 0, .4);		color: white;	 	}
+	.azulT40				{ background-color: rgba(0, 0, 235, .4);		color: white;	 	}
+	.amarilloT40, .amarillaT40{ background-color: rgba(235, 235, 0, .4);	color: black;	 	}
+	.naranjaT40				{ background-color: rgba(235, 150, 0, .4);	color: white;	}
+	.celesteT40				{ background-color: rgba(0, 235, 235, .4);	color: white;	}
+	.turquesaT40			{ background-color: rgba(0, 200, 200, .4);	color: white;	}
+	.fucsiaT40				{ background-color: rgba(235, 0, 150, .4);	color: white;	}
+	.rosaT40				{ background-color: rgba(235, 0, 200, .4);	color: white;	}
+	.purpuraT40				{ background-color: rgba(135, 0, 100, .4);	color: white;	}
+	.indigoT40				{ background-color: rgba(135, 0, 200, .4);	color: white;	}
+	.violetaT40				{ background-color: rgba(155, 0, 150, .4);	color: white;	}
+
+/* [Colores con transparencia al 40%] **********/
+	.negroT60, .negraT60	{ background-color: rgba(0,0,0,.6);			color: white; 	}
+	.rojoT60, .rojaT60 		{ background-color: rgba(235, 0, 0, .6);		color: white;	 	}
+	.verdeT60				{ background-color: rgba(0, 235, 0, .6);		color: white;	 	}
+	.azulT60				{ background-color: rgba(0, 0, 235, .6);		color: white;	 	}
+	.amarilloT60, .amarillaT60{ background-color: rgba(235, 235, 0, .6);	color: black;	 	}
+	.naranjaT60				{ background-color: rgba(235, 150, 0, .6);	color: white;	 	}
+	.celesteT60				{ background-color: rgba(0, 235, 235, .6);	color: white;	 	}
+	.turquesaT60			{ background-color: rgba(0, 200, 200, .6);	color: white;	 	}
+	.fucsiaT60				{ background-color: rgba(235, 0, 150, .6);	color: white;	 	}
+	.rosaT60				{ background-color: rgba(235, 0, 200, .6);	color: white;	 	}
+	.purpuraT60				{ background-color: rgba(135, 0, 100, .6);	color: white;	 	}
+	.indigoT60				{ background-color: rgba(135, 0, 200, .6);	color: white;	 	}
+	.violetaT60				{ background-color: rgba(155, 0, 150, .6);	color: white;		}
+
+/* [Colores con transparencia al 20%] **********/
+	.negroT80, .negraT80	{ background-color: rgba(0,0,0,.8);			color: white; 	}
+	.rojoT80, .rojaT80 		{ background-color: rgba(235, 0, 0, .8);		color: white;	 	}
+	.verdeT80				{ background-color: rgba(0, 235, 0, .8);		color: white;	 	}
+	.azulT80				{ background-color: rgba(0, 0, 235, .8);		color: white;	 	}
+	.amarilloT80, .amarillaT80{ background-color: rgba(235, 235, 0, .8);	color: black;	 	}
+	.naranjaT80				{ background-color: rgba(235, 150, 0, .8);	color: white;	}
+	.celesteT80				{ background-color: rgba(0, 235, 235, .8);	color: white;	}
+	.turquesaT80			{ background-color: rgba(0, 200, 200, .8);	color: white;	}
+	.fucsiaT80				{ background-color: rgba(235, 0, 150, .8);	color: white;	}
+	.rosaT80				{ background-color: rgba(235, 0, 200, .8);	color: white;	}
+	.purpuraT80				{ background-color: rgba(135, 0, 100, .8);	color: white;	}
+	.indigoT80				{ background-color: rgba(135, 0, 200, .8);	color: white;	}
+	.violetaT80				{ background-color: rgba(155, 0, 150, .8);	color: white;	}
+
+/* Bordes y efectos de caja */
+	.sinBordes 	{ border: 0; }
+	.conBordes, .conBorde, .borde, .bordes, .bordeado, .bordeada	{ border: 1px solid black;}
+	.bordeNormal { border: 2px solid; }
+	.bordeGrueso { border: 4px solid; }
+
+	.bordeRojo		{ border-color: rgb(235, 0, 0);		}
+	.bordeVerde		{ border-color: rgb(0, 235, 0);		}
+	.bordeAzul		{ border-color: rgb(0, 0, 235);		}
+	.bordeAmarillo	{ border-color: rgb(235, 235, 0);	}
+	.bordeNaranja	{ border-color: rgb(235,150, 0);	}
+	.bordeCeleste	{ border-color: rgb(0, 235, 235);	}
+	.bordeTurquesa	{ border-color: rgb(0, 200, 200);	}
+	.bordeFucsia	{ border-color: rgb(235, 0, 150);	}
+	.bordeRosa		{ border-color: rgb(235, 0, 200);	}
+	.bordePurpura	{ border-color: rgb(135, 0, 130);		}
+	.bordeIndigo	{ border-color: rgb(135, 0, 200);	}
+	.bordeViolet	{ border-color: rgb(155, 0, 150);		}
+
+	.bordesRayados, 	.bordeRayado 	{ border-style: dashed; }
+	.bordesPunteados, 	.bordeRayado	{ border-style: dotted; }
+	.bordesSolidos, 	.bordeSolido 	{ border-style: solid;	}
+	
+	.bordeSuperiorRayado	{ border-top-style: dashed; }
+	.bordeSuperiorPunteado	{ border-top-style: dotted; }
+	.bordeSuperiorSolido	{ border-top-style: solid; 	}
+	
+	.bordeInferiorRayado	{ border-bottom-style: dashed; }
+	.bordeInferiorPunteado	{ border-bottom-style: dotted; }
+	.bordeInferiorSolido	{ border-bottom-style: solid; 	}
+	
+	.bordeIzquierdoRayado	{ border-left-style: dashed; }
+	.bordeIzquierdoPunteado	{ border-left-style: dotted; }
+	.bordeIzquierdoSolido	{ border-left-style: solid; 	}
+	
+	.bordeDerechoRayado		{ border-right-style: dashed; }
+	.bordeDerechoPunteado	{ border-right-style: dotted; }
+	.bordeDerechoSolido		{ border-right-style: solid; 	}
+	
+/* [Sombras] ***********************/
+	.sombra10	{	box-shadow: 1px 1px 10px black; }
+	.sombra20	{	box-shadow: 1px 1px 20px black; }
+	.sombra30	{	box-shadow: 1px 1px 30px black; }
+
+
+/************************[MECANISMOS]*********************/
+	.fila {
+		padding: 0;
+		/*margin-bottom: 4px;*/
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		float: left;
+	}
+	
+	.columna {
+		overflow:		hidden;
+		position: 		relative;
+		float:			left;
+		margin:			0;
+		padding:		10px;
+		display:		inline-block;
+		margin-bottom:	-9949;
+		padding-bottom:	9989;
+	}
+	
+	.porcion14 { width: 25%; }
+	.porcion24 { width: 50%; }
+	.porcion34 { width: 75%; }
+	.porcion44 { width: 100%; }
+	
+	.porcion13 { width: 33.33%; }
+	.porcion23 { width: 66.66%; }
+	.porcion33 { width: 100%; }
+	
+	.porcion12 { width: 50%; }
+	.porcion22 { width: 100%; }
+	
+	.porcion15 { width: 20%; }
+	.porcion25 { width: 40%; }
+	.porcion35 { width: 60%; }
+	.porcion45 { width: 80%; }
+	.porcion55 { width: 100%; }
+
+	.ubicacionFija 			{ position: fixed; }
+	.ubicacionAbsoluta 	{ position: absolute; }
+	.ubicacionRelativa	{ position: relative; }
+	
+	.izquierdo, .izquierda 	{ left: 0;	}
+	.arriba, .superior 		{ top: 0; 	}
+	.abajo, .inferior		{ bottom: 0;}
+	.derecho, .derecha		{ right: 0;	}
+	
+	.centro, .centrado, .centrada, .enCentro, .enElCentro 
+		{ text-align: center; vertical-align: center; }
+
+/* [MÃ¡rgenes] */
+	.margenSuperior5	{ margin-top: 5px; }
+	.margenInferior5	{ margin-bottom: 5px; }
+	.margenIzquierdo5	{ margin-left: 5px; }
+	.margenDerecho5	  	{ margin-right: 5px; }
+	.margenVertical5	{ margin-top: 5px; margin-bottom: 5px; }
+	.margenLateral5	  	{ margin-left: 5px; margin-right: 5px; }
+
+	.margenSuperior10 { margin-top: 10px; }
+	.margenInferior10 { margin-bottom: 10px; }
+	.margenIzquierdo10{ margin-left: 10px; }
+	.margenDerecho10  { margin-right: 10px; }
+	.margenVertical10 { margin-top: 10px; margin-bottom: 10px; }
+	.margenLateral10  { margin-left: 10px; margin-right: 10px; }
+
+	.margenSuperior20 { margin-top: 20px; }
+	.margenInferior20 { margin-bottom: 20px; }
+	.margenIzquierdo20{ margin-left: 20px; }
+	.margenDerecho20  { margin-right: 20px; }
+	.margenVertical20 { margin-top: 20px; margin-bottom: 20px; }
+	.margenLateral20  { margin-left: 20px; margin-right: 20px; }
+
+/* [Redondeados o chanfles ] */
+	.circulo, .circular { border-radius: 50%; }
+
+	.redondeado	{ border-radius: 10px; }
+	.redondeado5 { border-radius: 5px; }
+	.redondeado10{ border-radius: 10px; }
+	.redondeado15{ border-radius: 15px; }
+	.redondeado20{ border-radius: 20px; }
+	.redondeado14{ border-radius: 25%; }
+	
+	.redondeadoSuperior	 	{ 	border-top-left-radius: 10px; 
+								border-top-right-radius:10px; }
+	.redondeadoSuperior5	{ 	border-top-left-radius: 05px; 
+								border-top-right-radius:05px; }
+	.redondeadoSuperior10	{ 	border-top-left-radius: 10px; 
+								border-top-right-radius:10px; }
+	.redondeadoSuperior15	{ 	border-top-left-radius: 15px; 
+								border-top-right-radius:15px; }
+	.redondeadoSuperior20	{ 	border-top-left-radius: 20px; 
+								border-top-right-radius:20px; }
+	.redondeadoSuperior14	{ 	border-top-left-radius: 25%; 
+								border-top-right-radius:25%; }
+
+	.redondeadoInferior	 	{ 	border-bottom-left-radius: 10px; 
+								border-bottom-right-radius:10px; }
+	.redondeadoInferior5	{ 	border-bottom-left-radius: 05px; 
+								border-bottom-right-radius:05px; }
+	.redondeadoInferior10	{ 	border-bottom-left-radius: 10px; 
+								border-bottom-right-radius:10px; }
+	.redondeadoInferior15	{ 	border-bottom-left-radius: 15px; 
+								border-bottom-right-radius:15px; }
+	.redondeadoInferior20	{ 	border-bottom-left-radius: 20px; 
+								border-bottom-right-radius:20px; }
+	.redondeadoInferior14	{ 	border-bottom-left-radius: 25%; 
+								border-bottom-right-radius:25%; }
+								
+/***************** [Botones] *********************/
+	.boton	{
+		display: inline-block;
+		padding: 5px;
+		border-radius: 10px;
+		background: white;
+		cursor: hand;
+	}
+	
+	.boton:hover {
+		box-shadow: 2px 2px 10px grey;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		-o-user-select: none;
+		user-select: none;
+		background: #EEE;
+	}
+
+/******************* [ OTROS ] **************/
+	.noSeMuestre, .noSeMuestra, .oculto, .oculta {
+		display: none;
+	}
+	
+	.renglon { display: inline; }
+	.bloque  { display: block;  }
+	.modulo  { display: inline-block; }
+	.flex	 { display: flex; }
+	
+	.espaciadoSuperior	{ padding-top: 10px;	}
+	.espaciadoSuperior5	{ padding-top: 5px;	}
+	.espaciadoSuperior10 { padding-top: 10px;}
+	.espaciadoSuperior15 { padding-top: 15px;}
+	.espaciadoSuperior20 { padding-top: 20px;}
+	.espaciadoSuperior25 { padding-top: 25px;}
+	.espaciadoSuperior30 { padding-top: 30px;}
+	.espaciadoSuperior40 { padding-top: 40px;}
+	.espaciadoSuperior50 { padding-top: 50px;}
+
+	.espaciadoInferior	{ padding-bottom:10px;}
+	.espaciadoInferior5	{ padding-bottom: 5px;}
+	.espaciadoInferior10 { padding-bottom: 10px;}
+	.espaciadoInferior15 { padding-bottom: 15px;}
+	.espaciadoInferior20 { padding-bottom: 20px;}
+	.espaciadoInferior25 { padding-bottom: 25px;}
+	.espaciadoInferior30 { padding-bottom: 30px;}
+	.espaciadoInferior40 { padding-bottom: 40px;}
+	.espaciadoInferior50 { padding-bottom: 50px;}
+
+	.espaciadoIzquierdo	  { padding-left: 10px;	}
+	.espaciadoIzquierdo5  { padding-left: 5px;	}
+	.espaciadoIzquierdo10 { padding-left: 10px;	}
+	.espaciadoIzquierdo15 { padding-left: 15px;	}
+	.espaciadoIzquierdo20 { padding-left: 20px;	}
+	.espaciadoIzquierdo25 { padding-left: 25px;	}
+	.espaciadoIzquierdo30 { padding-left: 30px;	}
+	.espaciadoIzquierdo40 { padding-left: 40px;	}
+	.espaciadoIzquierdo50 { padding-left: 50px;	}
+
+	.espaciadoDerecho	{ padding-right: 10px;	}
+	.espaciadoDerecho5	{ padding-right: 5px;	}
+	.espaciadoDerecho10 { padding-right: 10px;	}
+	.espaciadoDerecho15 { padding-right: 15px;	}
+	.espaciadoDerecho20 { padding-right: 20px;	}
+	.espaciadoDerecho25 { padding-right: 25px;	}
+	.espaciadoDerecho30 { padding-right: 30px;	}
+	.espaciadoDerecho40 { padding-right: 40px;	}
+	.espaciadoDerecho50 { padding-right: 50px;	}
+
+	.espaciadoVertical	{ padding-top: 10px;	padding-bottom: 10px; }
+	.espaciadoVertical5	{ padding-top: 5px;	padding-bottom: 5px; }
+	.espaciadoVertical10 { padding-top: 10px;	padding-bottom: 10px; }
+	.espaciadoVertical15 { padding-top: 15px;	padding-bottom: 15px; }
+	.espaciadoVertical20 { padding-top: 20px;	padding-bottom: 20px; }
+	.espaciadoVertical25 { padding-top: 25px;	padding-bottom: 25px; }
+	.espaciadoVertical30 { padding-top: 30px;	padding-bottom: 30px; }
+	.espaciadoVertical40 { padding-top: 40px;	padding-bottom: 40px; }
+	.espaciadoVertical50 { padding-top: 50px;	padding-bottom: 50px; }
+
+	.espaciadoHorizontal  { padding-right: 10px; padding-left: 10px; }
+	.espaciadoHorizontal5  { padding-right: 5px; padding-left: 5px; }
+	.espaciadoHorizontal10 { padding-right: 10px; padding-left: 10px; }
+	.espaciadoHorizontal15 { padding-right: 15px; padding-left: 15px; }
+	.espaciadoHorizontal20 { padding-right: 20px; padding-left: 20px; }
+	.espaciadoHorizontal25 { padding-right: 25px; padding-left: 25px; }
+	.espaciadoHorizontal30 { padding-right: 30px; padding-left: 30px; }
+	.espaciadoHorizontal40 { padding-right: 40px; padding-left: 40px; }
+	.espaciadoHorizontal50 { padding-right: 50px; padding-left: 50px; }
+
+	.espaciado		{ padding-top: 10px; padding-left: 10px; padding-right: 10px; }
+	.espaciado5		{ padding-top: 5px;  padding-left: 5px;  padding-right: 5px;  }
+	.espaciado10	{ padding-top: 10px; padding-left: 10px; padding-right: 10px; }
+	.espaciado15	{ padding-top: 15px; padding-left: 15px; padding-right: 15px; }
+	.espaciado20	{ padding-top: 20px; padding-left: 20px; padding-right: 20px; }
+	.espaciado25	{ padding-top: 25px; padding-left: 25px; padding-right: 25px; }
+	.espaciado30	{ padding-top: 30px; padding-left: 30px; padding-right: 30px; }
+	.espaciado40	{ padding-top: 40px; padding-left: 40px; padding-right: 40px; }
+	.espaciado50	{ padding-top: 50px; padding-left: 50px; padding-right: 50px; }
+
+	.fondoFijo 		{ background-attachment: fixed; }
+	.fondoLocal 	{ background-attachment: local; }
+	.fondoNormal	{ background-attachment: scroll;}
+
+	.fondoCubierto 	{ background-size: cover; }
+	.fondoContenido	{ background-size: contain; }
+	
+	.fondoRepetirX  { background-repeat: repeat-x; }
+	.fondoRepetirY  { background-repeat: repeat-y; }
+	.fondoRepetido  { background-repeat: repeat; }
+	.fondoSinRepetir{ background-repeat: no-repeat; }
+
+	.fondoCentrado  					{ background-position: center center; }
+	.fondoCentradoSuperior 	{ background-position: top center; 		}
+	.fondoCentradoInferior 	{ background-position: bottom center;	}
+	.fondoCentradoIzquierda	{ background-position: center left; 	}
+	.fondoCentradoIzquierda	{ background-position: center right; 	}
+	
+	.noSeleccionable, .noSeleccionar
+	{
+		user-select: none;
+	}
