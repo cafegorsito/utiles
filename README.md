@@ -25,10 +25,22 @@ var misNumeros = [3, 54, 10, 15];
 console.log( new Entre( misNumeros ).sumatoria() );
 console.log( new Entre( misNumeros ).azar() );
 console.log( new Entre( misNumeros ).promedio() );
-
+```
+Ejemplo de lo que podría producir:
+```
+82
+54
+20.5
+```
+```javascript
 var misColores = ["Rojo", "Gris", "Turquesa"];
 console.log( "Un color al azar puede ser " + Entre( misColores ).azar() );
 console.log( "Colores que tengo: " + Entre( misColores ).juntar( ", ", "", ". Ninguno más" ) );
+```
+Da algo como lo siguiente:
+```
+Un color al azar puede ser: Turquesa
+Colores que tengo: Rojo, Gris, Turquesa. Ninguno más
 ```
 
 Luego construyo escalas, arrays de valores escalados:
